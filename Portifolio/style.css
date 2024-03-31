@@ -19,6 +19,8 @@ body{
     display: flex;
 }
 .dz-contactos button{
+    position:absolute;
+    transform: translate(50%,75%);
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 700px;
@@ -94,17 +96,18 @@ section .topo-do-site .flex{
 }
 
 .topo-do-site .img-topo-site img{
-    position: relative;
+    position: absolute;
+    left:75%;
     animation: flutuar 2s ease-in-out infinite alternate;
     height: 350px;
     width: 300px;
 }
 
-@keyframes flutuar{
+/*@keyframes flutuar{
     0%{
         top: o;
     }
-100%{
-    top:30px;
+50%{
+    top:0.1px;
 }
 }
